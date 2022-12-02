@@ -1,0 +1,10 @@
+[custom.all.idr-html]
+type = "local"
+path = "."
+ipkg = "idr-html.ipkg"
+test = "test/test.ipkg"
+
+[custom.all.idr-html-test]
+type = "local"
+path = "test"
+ipkg = "test.ipkg"

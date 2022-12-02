@@ -1,6 +1,7 @@
 module.exports = {
   content: [
     'src/**/*.{ts,html}',
+    'idr/**/*.{idr,mdx}',
   ],
   theme: {
     container: {
