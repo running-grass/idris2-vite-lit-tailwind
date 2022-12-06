@@ -9,7 +9,7 @@
     "preview": "vite preview dist",
     "lit:dev": "vite",
     "idr:build": "PATH=$PATH:~/.pack/bin && make --directory idr",
-    "idr:watch": "chokidar 'idr/src/**/*.idr' -c 'pnpm run idr:build'",
+    "idr:watch": "chokidar 'idr/src/**/*.idr' 'sandwich/src/**/*.idr' -c 'pnpm run idr:build'",
     "watch:all": "pnpm run idr:watch",
     "dev:all": "run-s idr:build lit:dev",
     "lint": "eslint src --fix"

@@ -1,4 +1,4 @@
-package idr-html
+package sandwich-test
 version = 0.1.0
 authors = "Leo Liu"
 -- maintainers =
@@ -13,24 +13,17 @@ authors = "Leo Liu"
 -- langversion
 
 -- packages to add to search path
--- depends =
-depends = base,contrib
-          , rhone
-          , rhone-js
-          , dom
-          , sandwich
+depends = sandwich
 
 -- modules to install
-modules = Main
+-- modules =
 
 -- main file (i.e. file to load at REPL)
 main = Main
 
 -- name of executable
-executable = "idr-html.js"
-
--- output = "index.html"
-opts = "--codegen javascript"
+executable = "sandwich-test"
+-- opts =
 sourcedir = "src"
 -- builddir =
 -- outputdir =

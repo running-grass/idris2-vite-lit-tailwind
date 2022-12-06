@@ -1,0 +1,10 @@
+[custom.all.sandwich]
+type = "local"
+path = "sandwich"
+ipkg = "sandwich.ipkg"
+test = "test/test.ipkg"
+
+[custom.all.sandwich-test]
+type = "local"
+path = "sandwich/test"
+ipkg = "test.ipkg"
